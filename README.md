@@ -72,7 +72,7 @@ _Only applicable if we are using a Google Cloud database, which we are_
 ### Choose a Project for Deployment
 _This is a RE-OCCURING step. You will do this each time you want to deploy a project_
 _THESE ARE THE MAIN DEPLOYMENT STEPS_
-
+<!-- 
 * In your terminal, navigate to a repo that you want to deploy (we will use this repo)
 * Make sure that an `app.yaml` file exists that has at least one line, the runtime (ex. `runtime: nodejs10`). This file has already been created for us in this repo. Please go look at it.
 * Add an `environment_variables` section to your `app.yaml` file
@@ -82,7 +82,7 @@ _THESE ARE THE MAIN DEPLOYMENT STEPS_
 * Add a property for this variable and give it the name "CLOUD INSTANCE": `CLOUD_INSTANCE: <YOUR CLOUD INSTANCE NAME>`
 * Run the command: `gcloud app deploy`
 * Once deployed, App Engine will use the standard `npm start` command to run your application. Go look at it in the `package.json` file and make sure you know what it's doing
-* After a couple of minutes, your app should appear in the online console
+* After a couple of minutes, your app should appear in the online console -->
 
 * Navigate to your App Engine in Google Cloud. Find the URL where the app lives (top right corner)
 * Take this URL and put it in Postman and use it to test your routes and make sure the app works the same as it did when we were testing locally.
